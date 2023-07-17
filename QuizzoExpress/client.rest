@@ -1,0 +1,22 @@
+POST http://localhost:9000/quizzo/post_quiz/
+	content-type: application/json
+
+	{
+		"quiz_name": "sample1",
+		"questions" : [ 
+		   {
+			    "Q": "_________'s Number",
+		    	"options": ["Avagadro", "Rutherford", "Bohr", "Chadwick"]
+		   },
+		   {"Q1": "default Q",
+            "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ]}
+	    ]
+	}
+###
+
+GET http://localhost:9000/quizzo/get_quiz/sample
