@@ -19,4 +19,4 @@ POST http://localhost:9000/quizzo/post_quiz/
 	}
 ###
 
-GET http://localhost:9000/quizzo/get_quiz/sample
+GET http://localhost:8000/quizzo/get_quiz/sample1
