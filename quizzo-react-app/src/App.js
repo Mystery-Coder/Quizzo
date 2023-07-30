@@ -1,19 +1,16 @@
 import { useState, useRef } from "react";
+import { Route, Routes } from "react-router-dom";
 
+import Home from "./Home";
+import PlayQuiz from "./PlayQuiz";
+import CreateQuiz from "./CreateQuiz";
 function App() {
-	const inputRef = useRef();
 	return (
-		<div>
-			<h1>Quizzo - Play and Make Your Own Quizzes</h1>
-			<br />
-			<input placeholder="Enter Quiz Name" ref={inputRef} /> <br />
-			<button onClick={() => console.log(inputRef.current.value)}>
-				Play Quiz
-			</button>
-			<button onClick={() => console.log(inputRef.current.value)}>
-				Create New Quiz
-			</button>
-		</div>
+		<Routes>
+			<Route path="/" element={<Home />} />
+			<Route path="/playquiz" element={<PlayQuiz />} />
+			<Route path="/createquiz" element={<CreateQuiz />} />
+		</Routes>
 	);
 }
 
