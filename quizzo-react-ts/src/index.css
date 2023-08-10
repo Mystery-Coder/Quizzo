@@ -20,3 +20,14 @@ button {
 		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
 		"Helvetica Neue", sans-serif;
 }
+
+.bordered {
+	border: 1px solid black;
+	width: 260px;
+	height: 260px;
+}
+
+.option_checkbox {
+	padding: 15px;
+	margin: 15px;
+}
