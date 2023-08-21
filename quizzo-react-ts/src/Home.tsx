@@ -1,11 +1,24 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button, Typography, TextField } from "@mui/material/";
 
 function Home() {
 	const navigate = useNavigate();
 	const [quizName, setQuizName] = useState("");
+	const [quizNames, setQuizNames] = useState([]);
+	const [loaded, setLoaded] = useState(false);
 	const get_URL = "http://localhost:8000/quizzo/get_quiz/"; //quiz name must be added on
+	const get_quiznames_URL = "http://localhost:8000/quizzo/get_quiznames";
+
+	useEffect(() => {
+		//Getting quizNames
+		fetch(get_quiznames_URL)
+			.then((res) => res.json())
+			.then((data) => {
+				setQuizNames(data.quizNames);
+				setLoaded(true);
+			});
+	}, []);
 
 	function playQuizName() {
 		if (quizName) {
@@ -86,6 +99,14 @@ function Home() {
 			<Button variant="outlined" size="small" onClick={createQuizName}>
 				Create New Quiz
 			</Button>
+
+			<br />
+			<br />
+			<br />
+			<Typography variant="h6">Quizzes To Try,</Typography>
+			<Typography>PhySample</Typography>
+			<Typography>ChemSample</Typography>
+			<Typography>IndiaSample</Typography>
 		</div>
 	);
 }

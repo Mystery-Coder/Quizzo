@@ -31,7 +31,7 @@ function LoadedQuiz() {
 
 	function submitQuestion() {
 		if (questionIdx == questions.length - 1) {
-			alert("all questions answered");
+			alert("All Questions Answered.");
 			userAnswers = [...userAnswers, option];
 			navigate("/results", {
 				state: { userAnswers, quizObj, questions, quizName },
