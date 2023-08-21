@@ -24,7 +24,13 @@ button {
 .bordered {
 	border: 1px solid black;
 	width: 260px;
-	height: 260px;
+	height: 200px;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
 }
 
 .option_checkbox {

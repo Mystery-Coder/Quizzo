@@ -1,7 +1,7 @@
 import { v4 } from "uuid";
 import { Typography, TextField, Button } from "@mui/material";
 import { useState } from "react";
-
+import QuestionBox from "./QuestionBox";
 const get_URL = "http://localhost:8000/quizzo/get_quiz/"; //quiz name must be added on
 
 // Response JSON is like
@@ -15,7 +15,9 @@ const get_URL = "http://localhost:8000/quizzo/get_quiz/"; //quiz name must be ad
 // }
 
 function PlayQuiz() {
-	const [quizName, setQuizName] = useState("");
+	function createQuestion(q: string) {
+		return <QuestionBox key={v4()} question={q} quizObj={quizQbj} />;
+	}
 
 	function submitQuizName() {
 		if (quizName) {
@@ -24,7 +26,18 @@ function PlayQuiz() {
 					return res.json();
 				})
 				.then((data) => {
-					console.log(data);
+					if (data.exists === false) {
+						alert(`${quizName} does not exist`);
+						return;
+					} else {
+						setQuizObj(data.data);
+
+						let newQuestions = Object.keys(data.data["options"]); //Questions
+
+						setQuestions(newQuestions);
+
+						setLoaded(true);
+					}
 				});
 		} else {
 			alert("Enter Quiz Name");
@@ -37,15 +50,18 @@ function PlayQuiz() {
 			<Typography variant="h4">Play Quiz</Typography>
 			<br />
 			<TextField
-				id="outlined-basic"
 				label="Quiz Name"
 				variant="outlined"
 				size="small"
+				autoComplete="off"
 				onChange={(e) => setQuizName(e.target.value)}
 			/>
 			<Button color="secondary" size="large" onClick={submitQuizName}>
 				Submit
 			</Button>
+			<br />
+			<br />
+			{loaded && questions.map(createQuestion)}
 		</div>
 	);
 }

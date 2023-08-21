@@ -9,8 +9,8 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/quizzo/get_quiz/:quizname", async function (req, res) {
-	console.log("Got req");
 	let quizname = req.params.quizname;
+
 	let data = await readFileSync("quizzo_db.json");
 	data = JSON.parse(data);
 	let quiz_data = data[quizname];
