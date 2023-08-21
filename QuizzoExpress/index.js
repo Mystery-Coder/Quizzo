@@ -27,13 +27,35 @@ app.get("/quizzo/get_quiz/:quizname", async function (req, res) {
 	}
 });
 
+app.get("/quizzo/get_quiznames", async function (req, res) {
+	let data = await readFileSync("quizzo_db.json");
+	data = JSON.parse(data);
+
+	let quizNames = Object.keys(data);
+
+	res.send({ quizNames });
+});
+//Incoming data is like this,
+// {
+// 	"quizName" : "newQuiz",
+// 	"data" : {
+// 		"Q1" : "A1",
+// 		"Q2" : "A2",
+// 		"options" : {
+// 			"Q1" : ["A", "A1", "C", "D"],
+// 			"Q2" : ["A2", "B", "C", "D"]
+// 		}
+// 	}
+// }
+
 app.post("/quizzo/post_quiz", async function (req, res) {
-	let quiz_name = req.body.quiz_name;
+	let quizName = req.body.quizName;
+	let quizObj = req.body.data;
 
 	let data = await readFileSync("quizzo_db.json");
 	data = JSON.parse(data);
 
-	data[quiz_name] = req.body.questions;
+	data[quizName] = quizObj;
 
 	await writeFileSync("quizzo_db.json", JSON.stringify(data, null, 4));
 

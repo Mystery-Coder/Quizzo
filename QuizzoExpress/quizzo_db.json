@@ -63,7 +63,6 @@
 			]
 		}
 	},
-
 	"PhySample": {
 		"What is the SI unit of energy?": "Joule",
 		"Which law states that every action has an equal and opposite reaction?": "Newton's third law",
@@ -209,6 +208,122 @@
 				"Rupee",
 				"Pound",
 				"Dollar"
+			]
+		}
+	},
+	"CarsSample": {
+		"What is the top speed of the Bugatti Chiron?": "261 mph (420 km/h)",
+		"Which supercar manufacturer produces the Aventador and Huracán models?": "Lamborghini",
+		"What is the engine configuration of the McLaren P1?": "3.8-liter twin-turbocharged V8 hybrid",
+		"Which supercar is known for its distinctive gull-wing doors and is named after a bird of prey?": "Mercedes-Benz SLS AMG",
+		"Which iconic Italian automaker produces the LaFerrari?": "Ferrari",
+		"What is the horsepower of the Koenigsegg Jesko?": "1,280 hp",
+		"Which hybrid hypercar set a record lap time on the Nürburgring track?": "Porsche 918 Spyder",
+		"What is the name of the limited-production hybrid sports car by Aston Martin?": "Aston Martin Valkyrie",
+		"Which supercar features a Centenario model to honor the 100th birthday of its founder?": "Lamborghini",
+		"What is the acceleration time (0 to 60 mph) of the Rimac C_Two?": "Less than 1.85 seconds",
+		"Which supercar manufacturer has a model named Senna to honor the legendary Formula One driver?": "McLaren",
+		"What is the body material of the Pagani Huayra?": "Carbon fiber",
+		"Which hypercar's design was inspired by fighter jets and uses a 6.5-liter V12 engine?": "Apollo IE",
+		"What is the horsepower of the Bugatti Veyron Super Sport?": "1,200 hp",
+		"Which company produced the One:1, known as the world's first megacar?": "Koenigsegg",
+		"What is the price of the Ferrari SF90 Stradale, as of 2023?": "Varies, but around $500,000",
+		"options": {
+			"What is the top speed of the Bugatti Chiron?": [
+				"240 mph (386 km/h)",
+				"261 mph (420 km/h)",
+				"220 mph (354 km/h)",
+				"280 mph (451 km/h)"
+			],
+			"Which supercar manufacturer produces the Aventador and Huracán models?": [
+				"Ferrari",
+				"Lamborghini",
+				"McLaren",
+				"Porsche"
+			],
+			"What is the engine configuration of the McLaren P1?": [
+				"4.0-liter twin-turbocharged V8",
+				"3.8-liter twin-turbocharged V8 hybrid",
+				"5.2-liter naturally aspirated V10",
+				"6.5-liter naturally aspirated V12"
+			],
+			"Which supercar is known for its distinctive gull-wing doors and is named after a bird of prey?": [
+				"Mercedes-Benz SLS AMG",
+				"Audi R8",
+				"Porsche 911 GT3",
+				"Ferrari 488 GTB"
+			],
+			"Which iconic Italian automaker produces the LaFerrari?": [
+				"Ferrari",
+				"Lamborghini",
+				"Maserati",
+				"Pagani"
+			],
+			"What is the horsepower of the Koenigsegg Jesko?": [
+				"900 hp",
+				"1,280 hp",
+				"1,000 hp",
+				"1,500 hp"
+			],
+			"Which hybrid hypercar set a record lap time on the Nürburgring track?": [
+				"Ferrari LaFerrari",
+				"Porsche 918 Spyder",
+				"McLaren P1",
+				"Bugatti Chiron"
+			],
+			"What is the name of the limited-production hybrid sports car by Aston Martin?": [
+				"Aston Martin DB11",
+				"Aston Martin Vantage",
+				"Aston Martin Valkyrie",
+				"Aston Martin Vanquish"
+			],
+			"Which supercar features a 'Centenario' model to honor the 100th birthday of its founder?": [
+				"Ferrari 488 GTB",
+				"Lamborghini Aventador",
+				"McLaren 720S",
+				"Bugatti Chiron"
+			],
+			"What is the acceleration time (0 to 60 mph) of the Rimac C_Two?": [
+				"Less than 2 seconds",
+				"Less than 1.5 seconds",
+				"Less than 1.85 seconds",
+				"Less than 3 seconds"
+			],
+			"Which supercar manufacturer has a model named 'Senna' to honor the legendary Formula One driver?": [
+				"Ferrari",
+				"McLaren",
+				"Lamborghini",
+				"Porsche"
+			],
+			"What is the body material of the Pagani Huayra?": [
+				"Aluminum",
+				"Carbon fiber",
+				"Fiberglass",
+				"Steel"
+			],
+			"Which hypercar's design was inspired by fighter jets and uses a 6.5-liter V12 engine?": [
+				"Apollo IE",
+				"Koenigsegg Jesko",
+				"Bugatti Divo",
+				"Ferrari Monza SP2"
+			],
+			"What is the horsepower of the Bugatti Veyron Super Sport?": [
+				"1,000 hp",
+				"1,200 hp",
+				"1,500 hp",
+				"800 hp"
+			],
+			"Which company produced the One:1, known as the world's first megacar?": [
+				"Pagani",
+				"Koenigsegg",
+				"Bugatti",
+				"McLaren"
+			],
+			"What is the price of the Ferrari SF90 Stradale, as of 2023?": [
+				"Around $200,000",
+				"Around $300,000",
+				"Around $400,000",
+				"Varies, but around $500,000"
 			]
 		}
 	}
