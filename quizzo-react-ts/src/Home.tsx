@@ -40,7 +40,7 @@ function Home() {
 				.then((data) => {
 					if (data.exists === false) {
 						navigate("/createquiz", {
-							state: { quizObj, quizName },
+							state: { quizName },
 						});
 						return;
 					} else {
