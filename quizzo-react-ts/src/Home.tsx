@@ -39,7 +39,9 @@ function Home() {
 				})
 				.then((data) => {
 					if (data.exists === false) {
-						navigate("/createquiz");
+						navigate("/createquiz", {
+							state: { quizObj, quizName },
+						});
 						return;
 					} else {
 						alert(`${quizName} already exists`);

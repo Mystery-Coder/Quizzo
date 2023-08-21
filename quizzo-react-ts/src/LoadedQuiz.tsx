@@ -34,7 +34,7 @@ function LoadedQuiz() {
 			alert("all questions answered");
 			userAnswers = [...userAnswers, option];
 			navigate("/results", {
-				state: { userAnswers, quizObj, questions },
+				state: { userAnswers, quizObj, questions, quizName },
 				replace: true,
 			});
 			return;

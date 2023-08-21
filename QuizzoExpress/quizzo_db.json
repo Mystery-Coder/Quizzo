@@ -1,9 +1,15 @@
 {
-	"sample": {
+	"ChemSample": {
 		"What is the chemical symbol for water?": "H2O",
 		"Which gas is essential for respiration in humans and animals?": "Oxygen",
 		"Which element is the most abundant in the Earth's crust?": "Oxygen",
-
+		"What is the chemical symbol for gold?": "Au",
+		"Which gas is responsible for the smell of rotten eggs?": "Hydrogen sulfide",
+		"What is the pH of a neutral solution?": "7",
+		"Which element is the main component of natural gas?": "Methane",
+		"What type of reaction involves the combination of two or more substances to form a single product?": "Synthesis",
+		"What is the molecular formula of water?": "H2O",
+		"Which gas is known as laughing gas?": "Nitrous oxide",
 		"options": {
 			"What is the chemical symbol for water?": [
 				"O2",
@@ -22,13 +28,188 @@
 				"Aluminium",
 				"Oxygen",
 				"Silicon"
+			],
+			"What is the chemical symbol for gold?": ["Ag", "Au", "Cu", "Fe"],
+			"Which gas is responsible for the smell of rotten eggs?": [
+				"Oxygen",
+				"Hydrogen",
+				"Sulfur dioxide",
+				"Hydrogen sulfide"
+			],
+			"What is the pH of a neutral solution?": ["7", "1", "14", "0"],
+			"Which element is the main component of natural gas?": [
+				"Methane",
+				"Oxygen",
+				"Nitrogen",
+				"Carbon dioxide"
+			],
+			"What type of reaction involves the combination of two or more substances to form a single product?": [
+				"Decomposition",
+				"Combustion",
+				"Synthesis",
+				"Substitution"
+			],
+			"What is the molecular formula of water?": [
+				"H2O2",
+				"CO2",
+				"H2O",
+				"CH4"
+			],
+			"Which gas is known as laughing gas?": [
+				"Oxygen",
+				"Methane",
+				"Nitrous oxide",
+				"Carbon monoxide"
 			]
 		}
 	},
-	"sample1": {
-		"_________ 's Number": "Avagadro",
+
+	"PhySample": {
+		"What is the SI unit of energy?": "Joule",
+		"Which law states that every action has an equal and opposite reaction?": "Newton's third law",
+		"What is the speed of light in a vacuum?": "299,792,458 meters per second",
+		"What force keeps planets in orbit around the Sun?": "Gravitational force",
+		"What is the SI unit of electric current?": "Ampere",
+		"What is the phenomenon where a wave changes direction as it passes through an interface between two different media?": "Refraction",
+		"Which scientist is famous for his theory of relativity, E=mc^2?": "Albert Einstein",
+		"What is the unit of capacitance?": "Farad",
+		"What type of energy is associated with motion?": "Kinetic energy",
+		"What is the fundamental particle carrying a positive electric charge?": "Proton",
 		"options": {
-			"_______'s Number": ["Bohr", "Avagadro", "C", "D"]
+			"What is the SI unit of energy?": [
+				"Watt",
+				"Newton",
+				"Joule",
+				"Ohm"
+			],
+			"Which law states that every action has an equal and opposite reaction?": [
+				"Newton's first law",
+				"Newton's second law",
+				"Newton's third law",
+				"Einstein's law"
+			],
+			"What is the speed of light in a vacuum?": [
+				"299,792,458 meters per second",
+				"100,000,000 meters per second",
+				"500,000,000 meters per second",
+				"1,000,000,000 meters per second"
+			],
+			"What force keeps planets in orbit around the Sun?": [
+				"Electromagnetic force",
+				"Gravitational force",
+				"Nuclear force",
+				"Frictional force"
+			],
+			"What is the SI unit of electric current?": [
+				"Watt",
+				"Ampere",
+				"Volt",
+				"Ohm"
+			],
+			"What is the phenomenon where a wave changes direction as it passes through an interface between two different media?": [
+				"Reflection",
+				"Refraction",
+				"Diffraction",
+				"Dispersion"
+			],
+			"Which scientist is famous for his theory of relativity, E=mc^2?": [
+				"Isaac Newton",
+				"Albert Einstein",
+				"Galileo Galilei",
+				"Niels Bohr"
+			],
+			"What is the unit of capacitance?": [
+				"Henry",
+				"Farad",
+				"Tesla",
+				"Watt"
+			],
+			"What type of energy is associated with motion?": [
+				"Potential energy",
+				"Mechanical energy",
+				"Thermal energy",
+				"Kinetic energy"
+			],
+			"What is the fundamental particle carrying a positive electric charge?": [
+				"Electron",
+				"Proton",
+				"Neutron",
+				"Photon"
+			]
+		}
+	},
+	"IndiaSample": {
+		"What is the capital of India?": "New Delhi",
+		"Which river is considered the holiest river in India?": "Ganges",
+		"In which year did India gain independence from British rule?": "1947",
+		"What is the national emblem of India?": "Lion Capital of Ashoka",
+		"Which iconic mausoleum is located in Agra, India?": "Taj Mahal",
+		"What is the largest state in India by area?": "Rajasthan",
+		"Which festival of lights is widely celebrated in India?": "Diwali",
+		"Who is known as the Father of the Indian Constitution?": "B. R. Ambedkar",
+		"Which mountain range stretches across the northern border of India?": "Himalayas",
+		"What is the official currency of India?": "Indian Rupee",
+		"options": {
+			"What is the capital of India?": [
+				"Mumbai",
+				"New Delhi",
+				"Kolkata",
+				"Chennai"
+			],
+			"Which river is considered the holiest river in India?": [
+				"Yamuna",
+				"Brahmaputra",
+				"Ganges",
+				"Godavari"
+			],
+			"In which year did India gain independence from British rule?": [
+				"1919",
+				"1942",
+				"1947",
+				"1950"
+			],
+			"What is the national emblem of India?": [
+				"Lotus",
+				"Lion Capital of Ashoka",
+				"Peacock",
+				"Tiger"
+			],
+			"Which iconic mausoleum is located in Agra, India?": [
+				"Qutub Minar",
+				"Red Fort",
+				"Taj Mahal",
+				"Humayun's Tomb"
+			],
+			"What is the largest state in India by area?": [
+				"Uttar Pradesh",
+				"Maharashtra",
+				"Rajasthan",
+				"Madhya Pradesh"
+			],
+			"Which festival of lights is widely celebrated in India?": [
+				"Holi",
+				"Eid",
+				"Christmas",
+				"Diwali"
+			],
+			"Who is known as the Father of the Indian Constitution?": [
+				"Jawaharlal Nehru",
+				"Mahatma Gandhi",
+				"Sardar Patel",
+				"B. R. Ambedkar"
+			],
+			"Which mountain range stretches across the northern border of India?": [
+				"Vindhya Range",
+				"Western Ghats",
+				"Eastern Ghats",
+				"Himalayas"
+			],
+			"What is the official currency of India?": [
+				"Indian Rupee",
+				"Rupee",
+				"Pound",
+				"Dollar"
+			]
 		}
 	}
 }
