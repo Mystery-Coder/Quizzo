@@ -1,6 +1,6 @@
 # Quizzo
 
-A website and a Flutter to help users create their own quizzes and share them.
+A React Single Page Application and a Flutter to help users create their own quizzes and share them.
 
 What to do -
 
